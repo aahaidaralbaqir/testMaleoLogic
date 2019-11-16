@@ -1,15 +1,23 @@
+/**
+ * 
+ * @param arr
+ * @return number
+ * 
+ * @description
+ * You can run this code on repl.it or es6console  
+ */
 
-// buat function
+// make a function
 function findDiffMaximum(arr){
-    // cek jika array mengandung nilai nol
+    // check if array containt zero value
     if(arr.includes(0)){
         return "Tidak boleh ada nol"
     }else{
-         // cari nilai maximum
+         // find max value
         let max = Math.max(...arr)
-        // cari nilai minimum
+        // find min value
         let min = Math.min(...arr)
-        // beda terbesar =  nilai maximum - minimum
+        // maxDiff =  max value - min value
         let maxDiff = max - min
 
         return maxDiff
