@@ -11,7 +11,7 @@
 function findDiffMaximum(arr){
     // check if array containt zero value
     if(arr.includes(0)){
-        return "Tidak boleh ada nol"
+        return "error"
     }else{
          // find max value
         let max = Math.max(...arr)
